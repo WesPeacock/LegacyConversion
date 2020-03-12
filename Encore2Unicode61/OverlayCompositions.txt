@@ -1,0 +1,97 @@
+# Unicode characters that can be represented using combining overlays;
+# these do not have official decompositions, but we recognize them
+# in Encore2Unicode and generate the composed form where possible
+#
+# NB: like Unicode decomposition rules, these must be expressed
+# as [possibly nested] decompositions into 2, and no more, characters.
+
+# 00D0 0044 0335  # Indistinguishable from 0110
+00D8 004F 0338
+00F8 006F 0338
+0110 0044 0335
+0111 0064 0335
+0126 0048 0335
+0127 0068 0335
+0141 004C 0338
+0142 006C 0338
+0166 0054 0335
+0167 0074 0335
+0180 0062 0335
+# 0189 0044 0335	# Indistinguishable from 0110
+0197 0049 0335
+019A 006C 0335
+019F 004F 0335
+01B5 005A 0335
+01B6 007A 0335
+01BB 0032 0335
+01E4 0047 0335
+01E5 0067 0335
+023A 0041 0338      
+023B 0043 0338      
+023C 0063 0338      
+023D 004C 0335
+023E 0054 0338
+0243 0042 0335      
+0244 0055 0335      
+0246 0045 0338      
+0247 0065 0338      
+0248 004A 0335      
+0249 006A 0335      
+024C 0052 0335      
+024D 0072 0335      
+024E 0059 0335      
+024F 0079 0335      
+0268 0069 0335
+026B 006C 0334
+0275 006F 0335
+0284 0283 0335
+0289 0075 0335
+02A1 0294 0335
+02A2 0295 0335
+03FC 03C1 0335
+04FE 0425 0335
+04FF 0445 0335
+1D03 0299 0335
+1D06 1D05 0335
+1D0C 029F 0338
+1D6C 0062 0334
+1D6D 0064 0334
+1D6E 0066 0334
+1D6F 006D 0334
+1D70 006E 0334
+1D71 0070 0334
+1D72 0072 0334
+1D73 027E 0334
+1D74 0073 0334
+1D75 0074 0334
+1D76 007A 0334
+# 1D7A 0074 0068 0338	# No composition possible.
+1D7B 026A 0335
+1D7C 0269 0335
+1D7D 0070 0335
+1D7E 1D1C 0335
+1D7F 028A 0335
+# The following two could also be built using an equals sign for the
+# double bar, but this file has to have one or the other so I've
+# chosen double overlay instead.
+2C60 023D 0335	# ultimately results in: 004C 0335 0335
+2C61 019A 0335	# ultimately results in: 006C 0335 0335
+2C62 004C 0334
+2C63 0050 0335
+2C65 0061 0338
+2C66 0074 0338
+A740 004B 0335
+A741 006B 0335
+A742 004B 0338
+A743 006B 0338
+# The following two rules pick up one particular order of the overlays, but not both.
+# The code won't handle the multiple orders, but also don't think
+# it is worth the effort as these will probably never occur.
+A744 A740 0338	# ultimately results in: 004B 0335 0338 
+A745 A741 0338	# ultimately results in: 006B 0335 0338 
+A74A 004F 0336
+A74B 006F 0336
+# A750 0050 0335	# Can't have this and 2C63
+# A751 0070 0335  # Can't have this and 1D7D
+A756 0051 0338
+A757 0071 0338
