@@ -1,0 +1,154 @@
+﻿; This file was edited using TECkitMappingEditorU.exe v4.0.0.0 on 2020-03-04.
+;   Conversion Type = Legacy_to_from_Unicode
+;   Left-hand side font = Macu SILManuscript;14.25
+;   Right-hand side font = Doulos SIL;14.25
+;   Main Window Position = 540,93,136,39
+;   Left-hand side Character Map Window Position = 1099,270,608,626
+;   Right-hand side Character Map Window Position = 962,131,644,732
+
+EncodingName            "(SIL)-Macu_SILCharis-(1999)"
+DescriptiveName         "Font used by Nukak - Colombia"
+Version                 "1"
+Contact                 "mailto:(wes_peacock@sil.org)"
+RegistrationAuthority   "SIL International"
+RegistrationAuthority   "(REG_NAME)"
+RegistrationName        "Macu SILCharis-(1999)"
+;set normalization flags only if you are sure they are appropriate
+;SourceFlags		()
+;TargetFlags		()
+
+ByteClass [CTL] = (   0x00 .. 0x1f   )
+UniClass  [CTL] = ( U+0000 .. U+001f )
+[CTL]	<>	[CTL]
+
+; (1) The first 128 characters follow the standard mapping.
+ByteClass [ascii] = (   0x20..0x5c 0x5e..0x7f )
+UniClass  [ascii] = ( U+0020..U+005c U+005e..U+007f )
+[ascii]	<> [ascii]
+
+0x5D <> U+0289  ; latin_small_letter_u_bar  --  SILID 7027
+
+0x80	<>	U+20AC	; EURO SIGN
+
+0x82	<>	U+201A	; single_low_9_quotation_mark  --  quotesinglbase = SILID 9097*
+0x83	<>	U+0192	; latin_small_letter_f_with_hook  --  florin = SILID 1999
+0x84	<>	U+201E	; double_low_9_quotation_mark  --  quotedblbase = SILID 9098
+0x85	<>	U+2026	; horizontal_ellipsis  --  ellipsis = SILID 9099
+0x86	<>	U+2020	; dagger  --  dagger = SILID 9033
+0x87	<>	U+2021	; double_dagger  --  daggerdbl = SILID 9034
+0x88	<>	U+02C6	; modifier_letter_circumflex_accent  --  circumflex
+0x89	<>	U+2030	; per_mille_sign  --  perthousand = SILID 9059
+0x8A	<>	U+007D	; right_curly_bracket  --  braceright = SILID 9036
+0x8B	<>	U+2039	; single_left_pointing_angle_quotation_mark  --  guilsinglleft = SILID 9018*
+0x8C	<>	U+0152	; latin_capital_ligature_oe  --  OE = SILID 2319
+0x8F	<>	U+005D	; right_square_bracket  --  bracketright = SILID 9029
+0x91	<>	U+2018	; left_single_quotation_mark  --  quoteleft = SILID 9037*
+0x92	<>	U+2019	; right_single_quotation_mark  --  quoteright = SILID 9038*
+0x93	<>	U+201C	; left_double_quotation_mark  --  quotedblleft = SILID 9066
+0x94	<>	U+201D	; right_double_quotation_mark  --  quotedblright = SILID 9067*
+0x95	<>	U+2022	; bullet  --  bullet
+0x96	<>	U+2013	; en_dash  --  endash = SILID 9023*
+0x97	<>	U+2014	; em_dash  --  emdash = SILID 9025*
+0x98	<>	U+00E3 U+0301	; latin_small_letter_a_with_tilde combining_acute_accent  --  SILID 1001* + SILID 6157
+0x99	<>	U+00C3 U+0301	; latin_capital_letter_a_with_tilde combining_acute_accent  --  SILID 2001* + SILID 6157
+0x9A	<>	U+1EBD U+0301	; latin_small_letter_e_with_tilde combining_acute_accent  --  SILID 1006* + SILID 6157
+0x9B	<>	U+1EBC U+0301	; latin_capital_letter_e_with_tilde combining_acute_accent  --  SILID 2006* + SILID 6157
+0x9C	<>	U+0129 U+0301	; latin_small_letter_i_with_tilde combining_acute_accent  --  SILID 1411* + SILID 6157
+0x9D	<>	U+0128 U+0301	; latin_capital_letter_i_with_tilde combining_acute_accent  --  SILID 2011* + SILID 6157
+0x9F	<>	U+1E4C	; latin_capital_letter_o_with_tilde_and_acute  --  SILID 2019* + SILID 6157
+0xA0	<>	U+00A0	; no_break_space  --  nonbreakingspace
+0xA1	<>	U+00A1	; inverted_exclamation_mark  --  exclamdown = SILID 9017
+0xA2	<>	U+1E79	; latin_small_letter_u_with_tilde_and_acute  --  SILID 1027 + SILID 6157
+0xA3	<>	U+1E78	; latin_capital_letter_u_with_tilde_and_acute  --  SILID 2027 + SILID 6157
+0xA4	<>	U+00A4	; currency_sign  --  currency
+0xA5	<>	U+0289 U+0301	; latin_small_letter_u_bar combining_acute_accent  --  SILID 7027 + SILID 6202
+0xA6	<>	U+0289 U+0303	; latin_small_letter_u_bar combining_tilde  --  SILID 7027 + SILID 6201
+0xA7	<>	U+00A7	; section_sign  --  section = SILID 9042
+0xA8	<>	U+00A8	; diaeresis  --  dieresis
+0xA9	<>	U+0289 U+0303 U+0301	; latin_small_letter_u_bar combining_tilde combining_acute_accent  --  SILID 7027 + SILID 6057
+0xAA	<>	U+1D43	; modifier_letter_small_a  --  SILID 1801*
+0xAB	<>	U+0244 U+0301	; latin_capital_letter_u_bar combining_acute_accent  --  SILID 8027* + SILID 6302
+0xAC	<>	U+0244 U+0303	; latin_capital_letter_u_bar combining_tilde  --  SILID 8027* + SILID 6301
+0xAD	<>	U+00AD	; soft_hyphen  --  minus
+0xAE	<>	U+00AE	; registered_sign  --  registered = SILID 9049
+0xAF	<>	U+00AF	; macron  --  macron
+0xB0	<>	U+0244 U+0303 U+0301	; latin_capital_letter_u_bar combining_tilde combining_acute_accent  --  SILID 8027* + SILID 6157
+0xB1	<>	U+00B1	; plus_minus_sign  --  plusminus
+0xB2	<>	U+00B2	; superscript_two  --  twosuperior
+0xB3	<>	U+00B3	; superscript_three  --  threesuperior
+0xB4	<>	U+00B4	; acute_accent  --  acute
+0xB5	<>	U+00B5	; micro_sign  --  mu = SILID 1998*
+0xB6	<>	U+00B6	; pilcrow_sign  --  paragraph = SILID 9041
+0xB7	<>	U+00B7	; middle_dot  --  periodcentered
+0xB8	<>	U+00B8	; cedilla  --  cedilla
+0xB9	<>	U+00B9	; superscript_one  --  onesuperior
+0xBA	<>	U+00BA	; masculine_ordinal_indicator  --  ordmasculine
+0xBB	<>	U+00BB	; right_pointing_double_angle_quotation_mark  --  guillemotright = SILID 9069
+0xBC	<>	U+00BC	; vulgar_fraction_one_quarter  --  onequarter
+0xBD	<>	U+00BD	; vulgar_fraction_one_half  --  onehalf
+0xBE	<>	U+00BE	; vulgar_fraction_three_quarters  --  threequarters
+0xBF	<>	U+00BF	; inverted_question_mark  --  questiondown = SILID 9015
+0xC0	<>	U+00C3 U+0301	; latin_capital_letter_a_with_tilde combining_acute_accent  --  SILID 2001* + SILID 6157
+0xC1	<>	U+00C1	; latin_capital_letter_a_with_acute  --  SILID 2001* + SILID 6302
+0xC2	<>	U+00C2	; latin_capital_letter_a_with_circumflex  --  SILID 2001* + SILID 6305
+0xC3	<>	U+00C3	; latin_capital_letter_a_with_tilde  --  SILID 2001* + SILID 6301
+0xC4	<>	U+00C4	; latin_capital_letter_a_with_diaeresis  --  SILID 2001* + SILID 6304
+0xC5	<>	U+0243	; latin_capital_letter_b_with_stroke  --  SILID 8003*
+0xC6	<>	U+0244 U+0303 U+0301	; latin_capital_letter_u_bar combining_tilde combining_acute_accent  --  SILID 8027* + SILID 6157
+0xC7	<>	U+1EBC	; latin_capital_letter_e_with_tilde  --  SILID 2006* + SILID 6301
+0xC8	<>	U+1EBC U+0301	; latin_capital_letter_e_with_tilde combining_acute_accent  --  SILID 2006* + SILID 6157
+0xC9	<>	U+00C9	; latin_capital_letter_e_with_acute  --  SILID 2006* + SILID 6302
+0xCA	<>	U+00CA	; latin_capital_letter_e_with_circumflex  --  SILID 2006* + SILID 6305
+0xCB	<>	U+00CB	; latin_capital_letter_e_with_diaeresis  --  SILID 2006* + SILID 6304
+0xCC	<>	U+0128 U+0301	; latin_capital_letter_i_with_tilde combining_acute_accent  --  SILID 2011* + SILID 6157
+0xCD	<>	U+00CD	; latin_capital_letter_i_with_acute  --  SILID 2011* + SILID 6302
+0xCE	<>	U+00CE	; latin_capital_letter_i_with_circumflex  --  SILID 2011* + SILID 6305
+0xCF	<>	U+00CF	; latin_capital_letter_i_with_diaeresis  --  SILID 2011* + SILID 6304
+0xD0	<>	U+0128	; latin_capital_letter_i_with_tilde  --  SILID 2011* + SILID 6301
+0xD1	<>	U+00D1	; latin_capital_letter_n_with_tilde  --  SILID 2018 + SILID 6301
+0xD2	<>	U+1E4C	; latin_capital_letter_o_with_tilde_and_acute  --  SILID 2019* + SILID 6157
+0xD3	<>	U+00D3	; latin_capital_letter_o_with_acute  --  SILID 2019* + SILID 6302
+0xD4	<>	U+00D4	; latin_capital_letter_o_with_circumflex  --  SILID 2019* + SILID 6305
+0xD5	<>	U+00D5	; latin_capital_letter_o_with_tilde  --  SILID 2019* + SILID 6301
+0xD6	<>	U+00D6	; latin_capital_letter_o_with_diaeresis  --  SILID 2019* + SILID 6304
+0xD7	<>	U+0110	; latin_capital_letter_d_with_stroke  --  SILID 8005*
+0xD8	<>	U+0168	; latin_capital_letter_u_with_tilde  --  SILID 2027 + SILID 6301
+0xD9	<>	U+1E78	; latin_capital_letter_u_with_tilde_and_acute  --  SILID 2027 + SILID 6157
+0xDA	<>	U+00DA	; latin_capital_letter_u_with_acute  --  SILID 2027 + SILID 6302
+0xDB	<>	U+0244 U+0301	; latin_capital_letter_u_bar combining_acute_accent  --  SILID 8027* + SILID 6302
+0xDC	<>	U+00DC	; latin_capital_letter_u_with_diaeresis  --  SILID 2027 + SILID 6304
+0xDD	<>	U+00CB U+0332	; latin_capital_letter_e_with_diaeresis combining_low_line  --  SILID 2006* + SILID 6304 + SILID 6809*
+0xDE	<>	U+0244 U+0303	; latin_capital_letter_u_bar combining_tilde  --  SILID 8027* + SILID 6301
+0xDF	<>	U+00DF	; latin_small_letter_sharp_s  --  germandbls = SILID 1603*
+0xE0	<>	U+00E3 U+0301	; latin_small_letter_a_with_tilde combining_acute_accent  --  SILID 1001* + SILID 6157
+0xE1	<>	U+00E1	; latin_small_letter_a_with_acute  --  SILID 1001* + SILID 6202
+0xE2	<>	U+00E2	; latin_small_letter_a_with_circumflex  --  SILID 1001* + SILID 6005
+0xE3	<>	U+00E3	; latin_small_letter_a_with_tilde  --  SILID 1001* + SILID 6201
+0xE4	<>	U+00E4	; latin_small_letter_a_with_diaeresis  --  SILID 1001* + SILID 6204
+;0xE5 <>	U+0062 U+0336	; latin_small_letter_b combining_long_stroke_overlay  -- SILID 1003 + SILID 2612
+0xE6	<>	U+A78C	; latin_small_letter_saltillo --  SILID 2536
+0xE7	<>	U+1EBD	; latin_small_letter_e_with_tilde  --  SILID 1006* + SILID 6201
+0xE8	<>	U+1EBD U+0301	; latin_small_letter_e_with_tilde combining_acute_accent  --  SILID 1006* + SILID 6157
+0xE9	<>	U+00E9	; latin_small_letter_e_with_acute  --  SILID 1006* + SILID 6202
+0xEA	<>	U+00EA	; latin_small_letter_e_with_circumflex  --  SILID 1006* + SILID 6005
+0xEB	<>	U+00EB	; latin_small_letter_e_with_diaeresis  --  SILID 1006* + SILID 6204
+0xEC	<>	U+0129 U+0301	; latin_small_letter_i_with_tilde combining_acute_accent  --  SILID 1411* + SILID 6157
+0xED	<>	U+00ED	; latin_small_letter_i_with_acute  --  SILID 1411* + SILID 6202
+0xEE	<>	U+00EE	; latin_small_letter_i_with_circumflex  --  SILID 1411* + SILID 6005
+0xEF	<>	U+00EF	; latin_small_letter_i_with_diaeresis  --  SILID 1411* + SILID 6204
+0xF0	<>	U+0129	; latin_small_letter_i_with_tilde  --  SILID 1411* + SILID 6201
+0xF1	<>	U+00F1	; latin_small_letter_n_with_tilde  --  SILID 1018 + SILID 6201
+0xF2	<>	U+1E4D	; latin_small_letter_o_with_tilde_and_acute  --  SILID 1019* + SILID 6157
+0xF3	<>	U+00F3	; latin_small_letter_o_with_acute  --  SILID 1019* + SILID 6202
+0xF4	<>	U+00F4	; latin_small_letter_o_with_circumflex  --  SILID 1019* + SILID 6005
+0xF5	<>	U+00F5	; latin_small_letter_o_with_tilde  --  SILID 1019* + SILID 6201
+0xF6	<>	U+00F6	; latin_small_letter_o_with_diaeresis  --  SILID 1019* + SILID 6204
+;0xF7 <>	U+0064 U+0336	; latin_small_letter_d combining_long_stroke_overlay  -- SILID 1005 + SILID 2612
+0xF8	<>	U+0169	; latin_small_letter_u_with_tilde  --  SILID 1027 + SILID 6201
+0xF9	<>	U+1E79	; latin_small_letter_u_with_tilde_and_acute  --  SILID 1027 + SILID 6157
+0xFA	<>	U+00FA	; latin_small_letter_u_with_acute  --  SILID 1027 + SILID 6202
+0xFB	<>	U+0289 U+0301	; latin_small_letter_u_bar combining_acute_accent  --  SILID 7027 + SILID 6202
+0xFC	<>	U+00FC	; latin_small_letter_u_with_diaeresis  --  SILID 1027 + SILID 6204
+0xFD	<>	U+00EB U+0332	; latin_small_letter_e_with_diaeresis combining_low_line  --  SILID 1006* + SILID 6204 + SILID 6809*
+0xFE	<>	U+0289 U+0303	; latin_small_letter_u_bar combining_tilde  --  SILID 7027 + SILID 6201
+0xFF	<>	U+0072 U+0303	; latin_small_letter_r combining_tilde  --  SILID 1022* + SILID 6201
