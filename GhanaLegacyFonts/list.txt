@@ -1,0 +1,45 @@
+file: DOSHIGH.TTF	fullname: Manuscript DOS Ghana Regular
+file: DOUGHNBI.TTF	fullname: Doulos Ghana Bold Italic
+file: DOUGHNBO.TTF	fullname: Doulos Ghana
+file: DOUGHNIT.TTF	fullname: Doulos Ghana Italic
+file: DOUGHNRG.TTF	fullname: Doulos Ghana Regular
+file: GHNDOUBO.TTF	fullname: Ghana Doulos Bold
+file: GHNDOUIT.TTF	fullname: Ghana Doulos Italic
+file: GHNMANBI.TTF	fullname: Ghana Manuscript Bold Italic
+file: GHNMANBO.TTF	fullname: Ghana Manuscript Bold
+file: GHNMANIT.TTF	fullname: Ghana Manuscript Italic
+file: GHNMANRG.TTF	fullname: Ghana Manuscript Regular
+file: GHNSOPBI.TTF	fullname: Ghana Sophia Bold Italic
+file: GHNSOPBO.TTF	fullname: Ghana Sophia Bold
+file: GHNSOPIT.TTF	fullname: Ghana Sophia Italic
+file: GHNSOPRG.TTF	fullname: Ghana Sophia Regular
+file: KA297445.TTF	fullname: Kate Kate SILSophiaL
+file: KA544380.TTF	fullname: Kate Kate SILSophiaL Italic
+file: KA773122.TTF	fullname: Kate Kate SILSophiaL Bold
+file: KA958752.TTF	fullname: Kate Kate SILSophiaL Bold Italic
+file: MONGHNBI.TTF	fullname: Mono Ghana Bold Italic
+file: MONGHNBO.TTF	fullname: Mono Ghana Bold
+file: MONGHNIT.TTF	fullname: Mono Ghana Italic
+file: MONGHNRG.TTF	fullname: Mono Ghana Regular
+file: PH840008.TTF	fullname: Phntic Phntic SILManuscriptL
+file: PHN.TTF	fullname: Phonetic Ghana
+file: SILDLB.TTF	fullname: SILDoulosL Bold
+file: SILDLBI.TTF	fullname: SILDoulosL Bold Italic
+file: SILDLI.TTF	fullname: SILDoulosL Italic
+file: SILDLR.TTF	fullname: SILDoulosL
+file: SILGB.TTF	fullname: SIL Galatia Bold
+file: SILGR.TTF	fullname: SIL Galatia
+file: SILMLB.TTF	fullname: SILManuscriptL Bold
+file: SILMLBI.TTF	fullname: SILManuscriptL Bold Italic
+file: SILMLI.TTF	fullname: SILManuscriptL Italic
+file: SILMLR.TTF	fullname: SILManuscriptL
+file: SILSLB.TTF	fullname: SILSophiaL Bold
+file: SILSLBI.TTF	fullname: SILSophiaL Bold Italic
+file: SILSLI.TTF	fullname: SILSophiaL Italic
+file: SILSLR.TTF	fullname: SILSophiaL
+file: SOPGHNBI.TTF	fullname: Sophia Ghana Bold Italic
+file: SOPGHNBO.TTF	fullname: Sophia Ghana Bold
+file: SOPGHNIT.TTF	fullname: Sophia Ghana Italic
+file: SOPGHNRG.TTF	fullname: Sophia Ghana Regular
+file: ghnbOUBI.TTF	fullname: Ghana Doulos Bold Italic
+file: ghnbOURG.TTF	fullname: Ghana Doulos Regular

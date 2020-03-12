@@ -1,0 +1,8 @@
+file: TE116905.TTF	fullname: Test Doulos SILDoulosL Bold Italic
+file: TE134640.TTF	fullname: Test Doulos SILDoulosL
+file: TE150050.TTF	fullname: Test Pi SILDoulosL Italic
+file: TE399502.TTF	fullname: Test Pi SILDoulosL
+file: TE485012.TTF	fullname: Test Doulos SILDoulosL Bold
+file: TE63451.TTF	fullname: Test Doulos SILDoulosL Italic
+file: TE724188.TTF	fullname: Test Pi SILDoulosL Bold Italic
+file: TE876090.TTF	fullname: Test Pi SILDoulosL Bold
