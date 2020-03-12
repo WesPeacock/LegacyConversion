@@ -1,0 +1,78 @@
+store(&VERSION) '9.0'
+store(&NAME) 'DSH Unicode'
+store(&MESSAGE) 'This is a Unicode keyboard for the Daasanach languages'
+store(&ETHNOLOGUECODE) 'dsh'
+store(&COPYRIGHT) '© SIL'
+store(&BITMAP) 'DaasanachD.ico'
+
+begin Unicode > use(main)
+
+
+group(main) using keys
+c Implosives use modifier_letter_apostrophe
+'@' + "b" >     U+02BC "b"
+'@' + "B" > 	U+02BC "B"
+'@' + "d" > 	U+02BC "d"
+'@' + "D" > 	U+02BC "D"
+'@' + "j" > 	U+02BC "j"
+'@' + "J" > 	U+02BC "J"
+'@' + "g" > 	U+02BC "g"
+'@' + "G" > 	U+02BC "G"
+        
+c Explosives (added for completeness):
+c '@' + "t" > 	"t" U+02BC
+c '@' + "T" > 	"T" U+02BC
+c '@' + "k" > 	"k" U+02BC
+c '@' + "K" > 	"K" U+02BC
+c '@' + "p" > 	"p" U+02BC
+c '@' + "P" > 	"P" U+02BC
+c '@' + "c" > 	"c" U+02BC
+c '@' + "C" > 	"C" U+02BC
+
+c Special combinations:
+'*' + "d" >   	U+0111 
+'*' + "D" >   	U+0110   c "Ð" the one in quotes is U+00D0
+'@' + "?" >  	U+A78C     c for glottal
+  
+c Palatal and velar nasal:
+'@' + "n" > 	"ñ"
+'@' + "N" > 	"Ñ" 
+c '*' + "n" > 	"?"
+c '*' + "N" > 	"?"
+"ng" + "'" >   "ng'" c using U+2019
+                
+c Hightone above vowels:
+'*' + "a" >   	"á"
+'*' + "e" >   	"é"
+'*' + "i" >   	"í"
+'*' + "o" >   	"ó"
+'*' + "u" >   	"ú"
+'*' + "A" >   	"Á"
+'*' + "E" >   	"É"
+'*' + "I" >   	"Í"
+'*' + "O" >   	"Ó"
+'*' + "U" >  	"Ú" 
+    
+c Hat above vowels:
+'^' + "a" >   	"â"
+'^' + "e" >  	"ê"
+'^' + "i" >   	"î"
+'^' + "o" >   	"ô"
+'^' + "u" >   	"û"
+'^' + "A" >  	"Â" 
+'^' + "E" >  	"Ê"	 
+'^' + "I" >   	"Î"
+'^' + "O" >   	"Ô"
+'^' + "U" >  	"Û" 
+  
+c Mid-tone vowels are marked with a bar above:
+c '-' + "a" >  	U+0101 c LATIN SMALL LETTER A WITH MACRON
+c '-' + "e" >  	U+0113 c LATIN SMALL LETTER E WITH MACRON
+c '-' + "i" >  	U+012B c LATIN SMALL LETTER I WITH MACRON
+c '-' + "o" >  	U+014D c LATIN SMALL LETTER O WITH MACRON
+c '-' + "u" >   U+016B c LATIN SMALL LETTER U WITH MACRON
+c '-' + "A" >  	U+0100 c LATIN CAPITAL LETTER A WITH MACRON
+c '-' + "E" > 	U+0112 c LATIN CAPITAL LETTER E WITH MACRON
+c '-' + "I" >  	U+012A c LATIN CAPITAL LETTER I WITH MACRON
+c '-' + "O" > 	U+014C c LATIN CAPITAL LETTER O WITH MACRON
+c '-' + "U" > 	U+016A c LATIN CAPITAL LETTER U WITH MACRON

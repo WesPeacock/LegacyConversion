@@ -1,0 +1,107 @@
+EncodingName	"SIL-Daasanach-2017"
+DescriptiveName	 "SIL-Daasanach to Unicode"
+Version	 "1.0"
+Contact	 "mailto:wes_peacock@sil.org"
+; RegistrationAuthority	 "SIL International"
+; RegistrationName	"SIL-Ghana_Doulos-2005"
+pass( byte_Unicode )
+;set normalization flags
+RHSflags (ExpectsNFD GeneratesNFC)
+
+ByteDefault		'?'
+UniDefault		replacement_character
+
+ByteClass [CTL] = ( 0x00 .. 0x1f )
+UniClass  [CTL] = ( U+0000 .. U+001f )
+ByteClass [SevenBit] = ( 0x20 .. 0x7f )
+UniClass  [SevenBit] = ( U+0020 .. U+007f )
+[CTL]		<>	[CTL]
+[SevenBit]	<>	[SevenBit]
+;0x80	undefined
+;0x81	undefined
+0x82	<>	single_low_9_quotation_mark
+0x83	<>	latin_small_letter_f_with_hook
+0x84	<>	double_low_9_quotation_mark
+0x85	<>	horizontal_ellipsis
+0x86	<>	dagger
+0x87	<>	double_dagger
+0x88	<>	modifier_letter_circumflex_accent
+0x89	<>	per_mille_sign
+0x8a	<>	latin_capital_letter_s_with_caron
+0x8b	<>	single_left_pointing_angle_quotation_mark
+0x8c	<>	latin_capital_ligature_oe
+;0x8d	undefined
+;0x8e	undefined
+;0x8f	undefined
+;0x90	undefined
+0x91	<>	left_single_quotation_mark
+0x92	<>	right_single_quotation_mark
+0x93	<>	latin_small_letter_o_with_circumflex
+; 0x93	<>	left_double_quotation_mark
+0x94	<>	right_double_quotation_mark
+0x95	<>	latin_capital_letter_o_with_circumflex
+0x96	<>	en_dash
+0x97	<>	em_dash
+0x98	<>	small_tilde
+0x99	<>	trade_mark_sign
+0x9a	<>	latin_small_letter_s_with_caron
+0x9b	<>	single_right_pointing_angle_quotation_mark
+0x9c	<>	latin_small_ligature_oe
+; 0x9d	undefined
+; 0x9e	undefined
+0x9f	<>	latin_capital_letter_y_with_diaeresis
+0xa2	<> modifier_letter_apostrophe latin_small_letter_d
+0xa3	<>	latin_capital_letter_i_with_acute
+0xa5	<>	modifier_letter_apostrophe latin_capital_letter_d
+0xa8	<>	latin_small_letter_saltillo
+0xaa	<>	latin_capital_letter_a_with_acute
+0xb5	<>	latin_capital_letter_i_with_macron
+0xba	<>	latin_capital_letter_o_with_acute
+0xbf	<>	latin_small_letter_saltillo
+0xc1	<>	latin_capital_letter_a_with_acute
+0xc2	<>	latin_capital_letter_a_with_circumflex
+0xc3	<>	latin_capital_letter_a_with_tilde
+0xc4	<>	latin_capital_letter_a_with_macron
+0xc5	<>	latin_capital_letter_d_with_stroke
+0xc6	<>	modifier_letter_apostrophe latin_capital_letter_b
+0xc7	<>	modifier_letter_apostrophe latin_capital_letter_g
+0xc9	<>	latin_capital_letter_e_with_acute
+0xca	<>	latin_capital_letter_e_with_circumflex
+0xcd	<>	latin_capital_letter_i_with_acute
+0xce	<>	latin_capital_letter_i_with_circumflex
+0xd0	<> latin_capital_letter_d_with_stroke
+0xd1	<>	modifier_letter_apostrophe latin_capital_letter_j
+0xd3	<>	latin_capital_letter_o_with_acute
+0xd4	<>	latin_capital_letter_o_with_circumflex
+0xd6	<>	latin_capital_letter_o_with_macron
+0xda	<>	latin_capital_letter_u_with_acute
+0xdb	<>	latin_capital_letter_u_with_circumflex
+0xdc	<>	latin_capital_letter_u_with_macron
+0xdf	<>	latin_capital_letter_e_with_macron
+0xe0 <>	latin_capital_letter_a_with_circumflex
+0xe1	<>	latin_small_letter_a_with_acute
+0xe2 <>	latin_small_letter_a_with_circumflex
+0xe4	<>	latin_small_letter_a_with_macron
+0xe5 <>	latin_small_letter_d_with_stroke
+0xe6	<>	modifier_letter_apostrophe latin_small_letter_b
+0xe7 <> modifier_letter_apostrophe latin_small_letter_g
+0xe8	<>	latin_capital_letter_e_with_circumflex
+0xe9	<>	latin_small_letter_e_with_acute
+0xea <>	latin_small_letter_e_with_circumflex
+0xeb	<>	latin_small_letter_e_with_macron
+0xec	<>	latin_capital_letter_i_with_circumflex
+0xed	<>	latin_small_letter_i_with_acute
+0xee <>	latin_small_letter_i_with_circumflex
+0xef	<>	latin_small_letter_i_with_macron
+0xf1 <> modifier_letter_apostrophe latin_small_letter_j
+0xf2 <>	latin_capital_letter_o_with_circumflex
+0xf3	<>	latin_small_letter_o_with_acute
+0xf4 	<>	latin_small_letter_o_with_circumflex
+0xf6	<>	latin_small_letter_o_with_macron
+0xf9 <>	latin_capital_letter_u_with_circumflex
+0xfa	<>	latin_small_letter_u_with_acute
+0xfb	<>	latin_small_letter_u_with_circumflex
+0xec	<>	latin_small_letter_u_with_macron
+0xfc	<>	latin_small_letter_u_with_macron
+0xff	<> latin_capital_letter_u_with_acute
+pass( NFC_fwd )
